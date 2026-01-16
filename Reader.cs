@@ -30,7 +30,7 @@ namespace FileReaderandWriterUtility
             }
             catch (Exception e)
             {
-                Console.WriteLine($"Error: {e.ToString()}");
+                Console.WriteLine($"Error: {e.Message}");
             }
             return _fileText;
         }
