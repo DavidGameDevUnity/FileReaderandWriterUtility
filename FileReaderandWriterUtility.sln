@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11415.280 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReaderandWriterUtility", "FileReaderandWriterUtility.csproj", "{D911B821-A41B-DFC1-859C-B4C567C0E48C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D911B821-A41B-DFC1-859C-B4C567C0E48C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D911B821-A41B-DFC1-859C-B4C567C0E48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D911B821-A41B-DFC1-859C-B4C567C0E48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D911B821-A41B-DFC1-859C-B4C567C0E48C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3988581-C65B-4AEC-B754-0EF967B31BA4}
+	EndGlobalSection
+EndGlobal

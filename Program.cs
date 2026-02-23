@@ -9,6 +9,7 @@ namespace FileReaderandWriterUtility
         {
             Reader reader;
             Writer writer;
+<<<<<<< HEAD
             if (args.Length != 0 && args[1] == "-r")
             {
                 reader = new Reader(args[0]);
@@ -18,6 +19,24 @@ namespace FileReaderandWriterUtility
             {
                 writer = new Writer(args[0]);
                 writer.Write(args[2]);
+=======
+            if (args.Length >= 2)
+            {
+                if (args[1] == "-r")
+                {
+                    reader = new Reader(args[0]);
+                    Console.WriteLine(reader.Read());
+                }
+                else if (args.Length >= 3 && args[1] == "-w")
+                {
+                    writer = new Writer(args[0]);
+                    writer.Write(args[2]);
+                }
+                else
+                {
+                    Console.WriteLine("Вы забыли записать свой текст или выбрать режим -r или -w");
+                }
+>>>>>>> fix arguments bugs
             }
             else
             {
